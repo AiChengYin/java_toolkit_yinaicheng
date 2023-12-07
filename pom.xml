@@ -16,7 +16,28 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
 
+        <lombok.version>1.18.24</lombok.version>
+        <validation.version>2.0.1.Final</validation.version>
+
     </properties>
+
+    <dependencies>
+        <!--Lombok依赖，使用lombok需要idea先安装lombok插件-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <!--一个验证模型，它可以通过在字段、方法或类上放置注释来向Bean添加约束-->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>${validation.version}</version>
+        </dependency>
+
+
+    </dependencies>
 
     <build>
         <plugins>
