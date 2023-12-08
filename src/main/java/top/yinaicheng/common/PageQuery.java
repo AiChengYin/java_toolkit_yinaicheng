@@ -2,7 +2,7 @@ package top.yinaicheng.common;
 import javax.validation.constraints.Min;
 /**
  * 分页查询
- * Created By AiChengYin
+ * @author yinaicheng
  */
 public class PageQuery
 {

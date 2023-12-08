@@ -1,6 +1,7 @@
 package top.yinaicheng.utils.validate;
 /**
  * 正则表达式工具类
+ * @author yinaicheng
  */
 public class RegularUtils {
 

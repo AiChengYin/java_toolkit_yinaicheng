@@ -3,7 +3,7 @@ import top.yinaicheng.utils.collection.HashMapBuilder;
 import java.util.Map;
 /**
  * 返回码枚举
- * Created By AiChengYin
+ * @author yinaicheng
  */
 public enum ReturnCodeEnum
 {

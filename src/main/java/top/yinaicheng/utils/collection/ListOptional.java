@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Optional;
 /**
  * 对List集合的包装，用于空值处理
+ * 可以在处理List集合时更加方便地处理空值情况，避免出现NullPointerException等异常。
+ * @author yinaicheng
  */
 public final class ListOptional<E>
 {

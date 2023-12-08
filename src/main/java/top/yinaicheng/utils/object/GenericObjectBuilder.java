@@ -7,6 +7,7 @@ import java.util.function.Supplier;
 /**
  * 通用对象构建器
  * 可以根据需求创建一个对象，并为其设置属性值。通过链式调用的方式，可以方便地添加多个属性值。最终使用 build 方法构建最终的对象并返回
+ * @author yinaicheng
  */
 public class GenericObjectBuilder<T> {
 
