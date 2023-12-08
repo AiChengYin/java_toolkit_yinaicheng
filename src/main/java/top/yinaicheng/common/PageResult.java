@@ -74,10 +74,10 @@ public class PageResult<T>
   }
 
   public static void main(String[] args) {
-    System.out.println("""
-               Map<String,Integer> paginationValue= ImmutableMap.<String,Integer>builder().put("totalQuantity",0).put("pageNumber",1).put("pageQuantity",0).build();
-                return PageResult.<User>builder().paginationData(Lists.newArrayList()).paginationValue(paginationValue).build();
-            """);
+    /*
+     Map<String,Integer> paginationValue= ImmutableMap.<String,Integer>builder().put("totalQuantity",0).put("pageNumber",1).put("pageQuantity",0).build();
+     return PageResult.<User>builder().paginationData(Lists.newArrayList()).paginationValue(paginationValue).build();
+     */
   }
 
 }

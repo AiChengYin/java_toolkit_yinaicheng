@@ -70,9 +70,7 @@ public class GenericObjectBuilder<T> {
    * 这是一个示例方法，用于展示如何使用GenericBuilder
    */
   public static void main(String[] args) {
-    System.out.println("""
-            GenericObjectBuilder.initial(MybatisConfiguration::new).addAttribute(MybatisConfiguration::setCallSettersOnNulls,true).build();
-            """);
+    System.out.println("GenericObjectBuilder.initial(MybatisConfiguration::new).addAttribute(MybatisConfiguration::setCallSettersOnNulls,true).build();");
   }
 
 }

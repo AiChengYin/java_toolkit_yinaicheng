@@ -49,7 +49,7 @@ public final class ListOptional<E>
    * 判断传入的List集合是否是空List集合，根据结果对其分别处理，返回包装后的List集合
    */
   public static ListOptional<?> ofEmptyable(List<?> listValue) {
-    return (Optional.ofNullable(listValue).isEmpty() || listValue.isEmpty())?empty():of(listValue);
+    return (!Optional.ofNullable(listValue).isPresent() || listValue.isEmpty())?empty():of(listValue);
   }
 
   /**
