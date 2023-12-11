@@ -25,7 +25,7 @@
         <hibernateValidator.version>6.0.23.Final</hibernateValidator.version>
         <hutool.version>5.8.23</hutool.version>
         <mysql.version>8.0.33</mysql.version>
-        <mybatisPlus.version>3.5.4.1</mybatisPlus.version>
+        <mybatisPlus.version>3.1.2</mybatisPlus.version>
         <pageHelper.version>1.4.6</pageHelper.version>
 
     </properties>
