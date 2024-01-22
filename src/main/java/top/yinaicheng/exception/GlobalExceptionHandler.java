@@ -27,7 +27,7 @@ public class GlobalExceptionHandler
     log.error("获取根异常：{}", Throwables.getRootCause(throwable).toString());
     log.error("获得异常的列表：{}",Throwables.getCausalChain(throwable));
     log.error("获得异常堆栈的字符串：{}",Throwables.getStackTraceAsString(throwable));
-    return ResponseValue.failure(StringUtils.IS_EMPTY.test(errorMessage) ?"系统异常，请稍后重试":errorMessage, null , ReturnCodeEnum.convertEnumToMap(ReturnCodeEnum.POST_INTERNAL_SERVER_ERROR));
+    return ResponseValue.failure(StringUtils.IS_EMPTY.test(errorMessage) ?"系统异常，请稍后重试":errorMessage, null , ReturnCodeEnum.convertEnumToMap(ReturnCodeEnum.GENERAL_INTERNAL_SERVER_ERROR));
 
   }
 }

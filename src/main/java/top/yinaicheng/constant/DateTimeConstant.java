@@ -8,6 +8,11 @@ public interface DateTimeConstant
 {
 
   /**
+   * 上海时区
+   */
+  String ZONE_ID="Asia/Shanghai";
+
+  /**
    * 展示日期时间格式，分钟级别
    */
   String MINUTE_DATE_TIME_FORMAT ="yyyy-MM-dd HH:mm";

@@ -68,10 +68,32 @@
             <version>${springBootStarter.version}</version>
         </dependency>
 
+        <!--使用 Spring AOP 和 AspectJ 进行面向方面编程的入门程序-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+            <version>${springBootStarter.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <version>${springWeb.version}</version>
+        </dependency>
+
+        <!--MongoDB是一个跨平台的，面向文档的数据库，它支持的数据结构是类似JSON的BSON格式，可以存储比较复杂的数据类型-->
+        <!--SpringDataMongoDB是SpringData家族成员之一，用于操作MongoDB的持久层框架，封装了底层的MongoDB的Driver-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <version>${springBootStarter.version}</version>
+        </dependency>
+
+        <!--对于传统关系型数据库,SpringBoot使用JPA(Java Persistence API)资源库来实现对数据库的操作-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>${springBootStarter.version}</version>
         </dependency>
 
         <!-- MySQL连接器/J是JDBC Type 4驱动程序，这意味着它是MySQL协议的纯Java实现，不依赖于MySQL客户端库 -->
