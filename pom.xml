@@ -27,6 +27,7 @@
         <mysql.version>8.0.33</mysql.version>
         <mybatisPlus.version>3.1.2</mybatisPlus.version>
         <pageHelper.version>1.4.6</pageHelper.version>
+        <javaxMail.version>1.6.2</javaxMail.version>
 
     </properties>
 
@@ -158,6 +159,13 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
+        </dependency>
+
+        <!--关于JavaMail API-->
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>${javaxMail.version}</version>
         </dependency>
 
     </dependencies>
